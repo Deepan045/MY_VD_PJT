@@ -1,11 +1,12 @@
 import React from "react";
 import { Col,Row,Container,Carousel,Button } from "react-bootstrap";
+import { Link } from "react-router-dom";
 const HomeScreen=()=>{
     return(
          <>
          <div>
             <marquee>VTU Results 2024 out-Check Exam Results Here!!!
-                <a href="#">Click here...</a>Best of Luck
+                <Link to='/results'>Click here...</Link>Best of Luck
             </marquee>
          </div>
          <div>
@@ -52,7 +53,7 @@ const HomeScreen=()=>{
                 <div>
                     <Row>
                         <Col >
-                        <h3><a href="#">Vision</a></h3>
+                        <h3><Link to='/about'>Vision</Link></h3>
                         <p  className="p-style">To become an outstanding Technological University
                              at the cutting edge of Science and Technology that
                               produces world class Knowledge-delivery, Research, Extension
@@ -63,11 +64,11 @@ const HomeScreen=()=>{
                               produces world class Knowledge-delivery, Research, Extension
                              and Leadership in Technology innovation for Industry and Society
                              .</p>
-                             <Button variant="warning">Read More</Button>
+                             <Link to='/about' className="btn btn-warning">Read More</Link>
                         </Col>
 
                         <Col >
-                        <h3><a href="#">Mission</a></h3>
+                        <h3><Link to='/about'>Mission</Link></h3>
                         <p className="p-style">
                         To plan the development of technical education, 
                         to establish value-based and need-based education
@@ -82,11 +83,11 @@ const HomeScreen=()=>{
                           with a view to generate qualified and competent manpower,
                          responsive to technological and societal needs.
                         </p>
-                        <Button variant="warning">Read More</Button>
+                        <Link to='/about' className="btn btn-warning">Read More</Link>
                         </Col>
 
                         <Col>
-                        <h3><a href="#">Mandate</a></h3>
+                        <h3><Link to='/about'>Mandate</Link></h3>
                         <p className="p-style">
                         The Visvesvaraya Technological University has been 
                         established by the Government of the Karnataka in order
@@ -102,7 +103,7 @@ const HomeScreen=()=>{
                          certification systems for students,programs and institutions.
                         </p>
                       
-                        <Button variant="warning">Read More</Button>
+                        <Link to='/about' className="btn btn-warning">Read More</Link>
                         </Col>
                     </Row>
                 </div>
