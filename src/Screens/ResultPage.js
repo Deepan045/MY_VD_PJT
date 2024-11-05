@@ -1,5 +1,6 @@
 import React from "react";
 import{Row,Col,Form} from "react-bootstrap";
+import TableData from "./TableData";
 const ResultPage=()=>{
     return(
         <>
@@ -25,8 +26,10 @@ const ResultPage=()=>{
                    <Form.Label style={{float:'right'}}>Register No: 1ST20CS228</Form.Label>
                   
                </Form.Group>
-             <Col sm={12} md={6}>
-             </Col>
+             
+          </Row>
+          <Row>
+          <TableData></TableData>
           </Row>
         </>
     )
