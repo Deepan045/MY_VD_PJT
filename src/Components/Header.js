@@ -29,47 +29,47 @@ const Header=()=>{
                         <LinkContainer to='/admission'>
                         <NavDropdown.Item href="#">Admission</NavDropdown.Item>
                         </LinkContainer>
-                        <LinkContainer to='circulars&notification'>
+                        <LinkContainer to='/circulars/notification'>
                         <NavDropdown.Item href="#">Circulars & Notification</NavDropdown.Item>
                         </LinkContainer>
-                        <LinkContainer to ='certificateissused'>
+                        <LinkContainer to ='/certificateissused'>
                         <NavDropdown.Item href="#">Certificate Issused</NavDropdown.Item>
                         </LinkContainer>
                        
                     </NavDropdown>
                     <NavDropdown title="Examination" id="basic-nav-dropdown">
-                        <LinkContainer to='examguidlines'>
+                        <LinkContainer to='/examguidlines'>
                         <NavDropdown.Item href="#">Examination Guidlines</NavDropdown.Item>
                         </LinkContainer>
-                        <LinkContainer to='examapplication'>
+                        <LinkContainer to='/examapplication'>
                         <NavDropdown.Item href="#">Examination Application</NavDropdown.Item>
                         </LinkContainer>
-                        <LinkContainer to='results'>
+                        <LinkContainer to='/results'>
                         <NavDropdown.Item href="#">Results</NavDropdown.Item>
                         </LinkContainer>
                         
                     </NavDropdown>
                     <NavDropdown title="VTU Departments" id="basic-nav-dropdown">
-                        <LinkContainer to='civil'>
+                        <LinkContainer to='/civil'>
                         <NavDropdown.Item href="#">Civil Engg</NavDropdown.Item>
                         </LinkContainer>
-                        <LinkContainer to='cse'>
+                        <LinkContainer to='/cse'>
                         <NavDropdown.Item href="#">Computer Science Engg</NavDropdown.Item>
                         </LinkContainer>
-                        <LinkContainer to='ece'>
+                        <LinkContainer to='/ece'>
                         <NavDropdown.Item href="#">Electronics & Communication Engg</NavDropdown.Item>
                         </LinkContainer>
-                        <LinkContainer to='eee'>
+                        <LinkContainer to='/eee'>
                         <NavDropdown.Item href="#">Electrical & Electronics Engg</NavDropdown.Item>
                         </LinkContainer>
-                        <LinkContainer to='mech'>
+                        <LinkContainer to='/mech'>
                         <NavDropdown.Item href="#">Mechanical Engg</NavDropdown.Item>
                         </LinkContainer>
                         
                         
                     </NavDropdown>
                     <NavDropdown title="Staff Login" id="basic-nav-dropdown">
-                        <LinkContainer to='loginasadmin'>
+                        <LinkContainer to='/loginasadmin'>
                         <NavDropdown.Item href="#">Login as Admin</NavDropdown.Item>
                         </LinkContainer>
                         
