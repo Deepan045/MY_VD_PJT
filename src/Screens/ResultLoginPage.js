@@ -17,11 +17,11 @@ const ResultLoginPage=()=>{
             <Col></Col>
             <Col style={{marginLeft:'-20rem'}}>
                 <Form>
-                    <label>Enter Your Register NO:</label><br/>
-                    <input type="text" placeholder="Enter Your Register NO"
+                    <Form.Label>Enter Your Register NO:</Form.Label><br/>
+                    <Form.Control type="text" placeholder="Enter Your Register NO"
                     style={{width:'70%'}}/>
                     <br/>
-                    <br/>
+                    
                     <Button type="submit">submit</Button>
                 </Form>
             </Col>
