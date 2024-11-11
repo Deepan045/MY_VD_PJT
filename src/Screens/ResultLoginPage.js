@@ -14,7 +14,7 @@ const ResultLoginPage=()=>{
             setError("Please enter  register id")
            }
            else{
-              axios.get('http://localhost:3002/studentinfo')
+              axios.get('http://localhost:3001/studentinfo')
               .then((response)=>{console.log("res",response.data)
                 response.data.map((data,index)=>{
                     if(data.registerId === registerInput){
