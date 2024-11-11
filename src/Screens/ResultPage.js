@@ -1,7 +1,24 @@
 import React from "react";
 import{Row,Col,Form} from "react-bootstrap";
 import TableData from "./TableData";
+import axios from "axios";
+import { useEffect,useState } from "react";
+import { useParams } from "react-router-dom";
 const ResultPage=()=>{
+  const [Studentdetails,setStudentdetails]=useState([])
+  const value= useParams()
+  useEffect(()=>{
+    axios.get('http://localhost:3002/studentinfo')
+    .then((response)=>{
+      response.data.map((data)=>{
+        if(data.registerId === value.id){
+          setStudentdetails(data)
+        }
+        
+      })
+    })
+  },[])
+
     return(
         <>
           <Row className="justify-content-center my-5">
@@ -15,21 +32,21 @@ const ResultPage=()=>{
              <Col sm={12} md={6}>
                 <Form.Group>
                     <Form.Label>Student Name:</Form.Label>
-                    <Form.Label style={{marginLeft:'4.5rem'}}>Kalai M</Form.Label><br/>
+                    <Form.Label style={{marginLeft:'4.5rem'}}>{Studentdetails.studentname}</Form.Label><br/>
                     <Form.Label>Father's/Mother's Name:</Form.Label>
-                    <Form.Label style={{marginLeft:'0.5rem'}}>Riya M</Form.Label><br/>
+                    <Form.Label style={{marginLeft:'0.5rem'}}>{Studentdetails.FatherName}</Form.Label><br/>
                     <Form.Label>College Name:</Form.Label>
-                    <Form.Label style={{marginLeft:'4.5rem'}}>Oxford University</Form.Label>
+                    <Form.Label style={{marginLeft:'4.5rem'}}>{Studentdetails.collegeName}</Form.Label>
                 </Form.Group>
              </Col>
                <Form.Group>
-                   <Form.Label style={{float:'right'}}>Register No: 1ST20CS228</Form.Label>
+                   <Form.Label style={{float:'right'}}>Register No: {Studentdetails.registerId}</Form.Label>
                   
                </Form.Group>
              
           </Row>
           <Row>
-          <TableData></TableData>
+          <TableData studentId = {Studentdetails.registerId}></TableData>
           </Row>
         </>
     )
