@@ -11,7 +11,7 @@ const Header=()=>{
                     <LinkContainer to='/'>
                           <Navbar.Brand href="/">
                           <Image className="logo-img-style" src='images/logo.jpg' alt='Video' roundedCircle/>
-                          <h6 className="logo-text-style">Visvesvaraya Technological University,Belagavi</h6>
+                          <h6 className="logo-text-style">Visvesvaraya Technological University,Belgaum</h6>
                          </Navbar.Brand>
                     </LinkContainer>
                 

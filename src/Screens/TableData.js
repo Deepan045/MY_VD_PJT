@@ -5,7 +5,7 @@ const TableData=({studentId})=>{
 
     const[resultDetails,setresultDetails]=useState([])
     useEffect(()=>{
-        axios.get('http://localhost:3001/studentinfo')
+        axios.get('http://localhost:3002/studentinfo')
         .then((response)=>{
             console.log(response.data)
             let temp=[]
@@ -26,15 +26,15 @@ const TableData=({studentId})=>{
         <Table className="my-5" responsive bordered>
             <thead>
                 <tr>
-                    <th style={{padding:'0px 10rem'}}>Sl No</th>
+                    <th style={{textAlign:"center"}}>Sl No</th>
                     <th colSpan={2}>Subject
                          <th style={{padding:'0px 10rem'}}>Code</th>
-                         <th style={{padding:'0px 10rem'}}>Subject</th>
+                         <th style={{paddingLeft:' 10rem'}}>Subject</th>
                     </th>
                     <th colSpan={3}>Examination Marks Obtained
-                         <th style={{padding:'0px 10rem'}}>Max</th>
-                         <th style={{padding:'0px 10rem'}}>Min</th>
-                         <th style={{padding:'0px 10rem'}}>Obtained</th>
+                         <th style={{paddingLeft:' 10rem'}}>Max</th>
+                         <th style={{paddingLeft:' 10rem'}}>Min</th>
+                         <th style={{paddingLeft:' 10rem'}}>Obtained</th>
                     </th>
                     <th style={{padding:'0px 10rem'}}>Subject Result</th>
                 </tr>
@@ -52,7 +52,7 @@ const TableData=({studentId})=>{
                         <td>{data.result}</td>
                     </tr>
                 ))
-               }
+            }
             </tbody>
             <thead>
                 <tr>

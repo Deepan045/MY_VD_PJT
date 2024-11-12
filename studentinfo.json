@@ -9,7 +9,7 @@
             "collegeName":"Oxford University",
             "code":"CSE001",
             "Subject":"JAVA",
-            "max-marks":"100",
+            "max_marks":"100",
             "min_marks":"35",
             "obtained_marks":"65",
             "result":"PASS"
@@ -23,7 +23,7 @@
             "collegeName":"Oxford University",
             "code":"CSE002",
             "Subject":"PYTHON",
-            "max-marks":"100",
+            "max_marks":"100",
             "min_marks":"35",
             "obtained_marks":"45",
             "result":"PASS"
@@ -37,7 +37,7 @@
     "collegeName":"Oxford University",
     "code":"CSE003",
     "Subject":"SQL",
-    "max-marks":"100",
+    "max_marks":"100",
     "min_marks":"35",
     "obtained_marks":"76",
     "result":"PASS"
@@ -51,7 +51,7 @@
     "collegeName":"Oxford University",
     "code":"CSE004",
     "Subject":"Devops",
-    "max-marks":"100",
+    "max_marks":"100",
     "min_marks":"35",
     "obtained_marks":"23",
     "result":"FAIL"
@@ -65,7 +65,7 @@
     "collegeName":"Oxford University",
     "code":"CV001",
     "Subject":"CAD",
-    "max-marks":"100",
+    "max_marks":"100",
     "min_marks":"35",
     "obtained_marks":"76",
     "result":"PASS"
@@ -79,7 +79,7 @@
     "collegeName":"Oxford University",
     "code":"CV002",
     "Subject":"FLUID MECHANICS",
-    "max-marks":"100",
+    "max_marks":"100",
     "min_marks":"35",
     "obtained_marks":"45",
     "result":"PASS"
@@ -93,7 +93,7 @@
     "collegeName":"Oxford University",
     "code":"CV003",
     "Subject":"STAAD",
-    "max-marks":"100",
+    "max_marks":"100",
     "min_marks":"35",
     "obtained_marks":"77",
     "result":"PASS"
@@ -107,7 +107,7 @@
     "collegeName":"Oxford University",
     "code":"CV004",
     "Subject":"FLIELD VISIT",
-    "max-marks":"100",
+    "max_marks":"100",
     "min_marks":"35",
     "obtained_marks":"98",
     "result":"PASS"
@@ -121,7 +121,7 @@
     "collegeName":"Oxford University",
     "code":"EC001",
     "Subject":"LOGICAL DESIGN",
-    "max-marks":"100",
+    "max_marks":"100",
     "min_marks":"35",
     "obtained_marks":"60",
     "result":"PASS"
@@ -135,7 +135,7 @@
     "collegeName":"Oxford University",
     "code":"EC002",
     "Subject":"VLSI",
-    "max-marks":"100",
+    "max_marks":"100",
     "min_marks":"35",
     "obtained_marks":"55",
     "result":"PASS" 
@@ -149,7 +149,7 @@
     "collegeName":"Oxford University",
     "code":"EC003",
     "Subject":"DIGITAL COMMUNICATION",
-    "max-marks":"100",
+    "max_marks":"100",
     "min_marks":"35",
     "obtained_marks":"65",
     "result":"PASS"
@@ -163,7 +163,7 @@
     "collegeName":"Oxford University",
     "code":"EC004",
     "Subject":"SIGNALS & SYSTEM",
-    "max-marks":"100",
+    "max_marks":"100",
     "min_marks":"35",
     "obtained_marks":"60",
     "result":"PASS"
